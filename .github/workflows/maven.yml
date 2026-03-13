@@ -11,7 +11,7 @@ name: Java CI with Maps&HashMaps
 on:
   push:
     branches: [ "master" ]
-
+workflow_dispatch:
 jobs:
   build:
 
